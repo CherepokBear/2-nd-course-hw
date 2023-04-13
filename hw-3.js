@@ -43,29 +43,40 @@ let month = prompt("Ведите первые три буквы месяца п�
 
 if (month === "jan") {
     console.log("Январь")
-}else if  (month === "feb"){
+} else if (month === "feb") {
     console.log("Февраль")
-}else if (month === "mar") {
+} else if (month === "mar") {
     console.log("Март")
-}else if (month === "apr") {
+} else if (month === "apr") {
     console.log("Апрель")
-}else if (month === "may") {
+} else if (month === "may") {
     console.log("Май")
-}else if  (month === "jun"){
+} else if (month === "jun") {
     console.log("Июнь")
-}else if (month === "jul") {
+} else if (month === "jul") {
     console.log("Июль")
-}else if  (month === "aug"){
+} else if (month === "aug") {
     console.log("Август")
-}else if (month === "sep") {
+} else if (month === "sep") {
     console.log("Сентябрь")
-}else if (month === "oct") {
+} else if (month === "oct") {
     console.log("Октябрь")
-}else if (month === "nov") {
+} else if (month === "nov") {
     console.log("Ноябрь")
-}else if{
+} else if{
     console.log("Декабрь")
 }else {
     console.log("No release")
 }
 
+let funtic = prompt("Пожалуйста, введите любое число");
+if (funtic === Number) {
+    console.log(funtic);
+} else {
+    console.log(NaN);
+}
+if (value % 2 == 0) {
+    alert("Число четное");
+} else {
+    alert("Число четное");
+}
