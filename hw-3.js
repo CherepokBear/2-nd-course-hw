@@ -75,9 +75,16 @@ if (funtic === Number) {
 } else {
     console.log(NaN);
 }
-if (value % 2 == 0) {
+if (funtic % 2 == 0) {
     alert("Число четное");
 } else {
-    alert("Число четное");
+    alert("Число нечетное");
 }
 
+let clietOS = 0;
+let clietAndroid = 1;
+if (clietOS) {
+    alert("Установите версию приложения для iOS по ссылке");
+} else (clietAndroid){
+    alert("Установите версию приложения для Android по ссылке");
+}
